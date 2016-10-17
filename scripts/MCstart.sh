@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /opt/codedeploy
 
 if [[ $NODE_ENV == "production" || $NODE_ENV == "staging" ]]; then
   npm install && npm start 
